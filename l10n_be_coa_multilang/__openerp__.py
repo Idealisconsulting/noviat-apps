@@ -14,6 +14,7 @@
         'base_vat',
         'base_iban',
         'account_chart',
+        'l10n_be',
     ],
     'data': [
         'security/account_security.xml',

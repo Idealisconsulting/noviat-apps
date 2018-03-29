@@ -166,7 +166,7 @@ class PartnerVat(models.TransientModel):
 
 
 class PartnerVatList(models.TransientModel):
-    _name = 'partner.vat.list'
+    _inherit = 'partner.vat.list'
 
     partner_ids = fields.Many2many(
         comodel_name='vat.listing.clients',

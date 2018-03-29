@@ -22,7 +22,7 @@ _logger = logging.getLogger(__name__)
 class partner_vat_intra(orm.TransientModel):
     """ VAT Intracom declaration
     """
-    _name = 'partner.vat.intra'
+    _inherit = 'partner.vat.intra'
     _description = 'Partner VAT Intra'
 
     def _get_period(self, cr, uid, context=None):
